@@ -3,6 +3,7 @@ gsap.from(".line",{
     stagger:0.3,
 })
 gsap.from(".loader",{
-    rotate:180,
+    rotate:360,
     repeat:-1,
+    stagger:8
 })
