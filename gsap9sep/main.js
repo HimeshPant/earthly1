@@ -5,5 +5,5 @@ gsap.from(".line",{
 gsap.from(".loader",{
     rotate:360,
     repeat:-1,
-    stagger:8
+    
 })
