@@ -1,4 +1,6 @@
-gsap.cursor('mousemove',{
-    left:pageX,
-    right:pageY
+document.addEventListener("mousemove",function(elem){
+    gsap.to("#cursor",{
+    left:elem.x,
+    top:elem.y
+})
 })
