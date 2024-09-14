@@ -32,7 +32,8 @@ gsap.to(".page1",{
     }
 })
 hi.to(".page1",{
+    
     opacity:0,
     // delay to be very carefully used as it will make repeting user experience bad
-    // delay:1
+    // delay:1,
 })
